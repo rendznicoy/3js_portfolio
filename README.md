@@ -1,130 +1,97 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
-    </a>
-  <br />
-
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A 3D Developer Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h3 align="center">Personal 3D Portfolio</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
+1.  [Tech Stack](#tech-stack)
+2.  [Features](#features)
+3.  [Quick Start](#quick-start)
+4.  [Configuration Snippets](#snippets)
 
-## 🚨 Tutorial
+## <a name="tech-stack"> Tech Stack</a>
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+I utilized the most modern and powerful libraries available for 3D web development:
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+* **Core:** React.js, Vite
+* **3D Graphics:** Three.js, React Three Fiber, React Three Drei
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Functionality:** EmailJS (for contact forms)
 
-<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+## <a name="features"> Features</a>
 
-## <a name="introduction">🤖 Introduction</a>
+ **Immersive 3D Hero Section**: Captivate visitors immediately with a fully interactive, rotatable 3D desktop scene.
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
+ **Motion-Driven UX**: Experience buttery-smooth page transitions and interactions powered by Framer Motion.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+ **Interactive 3D Skills**: Visualise technical proficiency using floating, rotating 3D geometries.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+ **Animated Projects & Testimonials**: Showcase your work and social proof with dynamic, card-based animations.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+ **Real-World Contact Form**: A functional contact section featuring a rotating 3D Earth model, fully integrated with EmailJS for instant messaging.
 
-- React.js
-- Three.js
-- React Three Fiber
-- React Three Drei
-- Email JS
-- Vite
-- Tailwind CSS
+ **Dynamic Backgrounds**: An algorithmic star-field background that generates stars at random positions for a depth-filled aesthetic.
 
-## <a name="features">🔋 Features</a>
+ **Responsive & Reusable**: Built with mobile responsiveness in mind and structured for maximum code reusability.
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+## <a name="quick-start"> Quick Start</a>
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+Follow these steps to get the project up and running on your local machine.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+**1. Prerequisites**
+Ensure you have the following installed:
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/en)
+* [npm](https://www.npmjs.com/) (Node Package Manager)
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
-
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
-
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
-
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
-
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
-
-and many more, including code architecture and reusability 
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
+**2. Clone the Repository**
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone git@github.com:rendznicoy/3js_portfolio.git
+cd 3js_portfolio
+
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+**3. Install Dependencies**
 
 ```bash
 npm install
+
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
+**4. Set Up Environment Variables**
+Create a `.env` file in the root directory. You will need your EmailJS credentials to make the contact form work:
 
 ```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+REACT_APP_EMAILJS_USERID=your_public_key
+REACT_APP_EMAILJS_TEMPLATEID=your_template_id
+REACT_APP_EMAILJS_RECEIVERID=your_service_id
+
 ```
 
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+*Tip: You can get these credentials by creating a free account at [EmailJS](https://www.emailjs.com/).*
 
-**Running the Project**
+**5. Launch the Application**
 
 ```bash
 npm run dev
+
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Visit [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173) to view your 3D portfolio!
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets"> Configuration Snippets</a>
+
+Below are the essential configuration files and datasets I used. Expand them to view the code.
 
 <details>
-<summary><code>constants.js</code></summary>
+<summary><b> constants.js (Data for Projects, Skills, etc.)</b></summary>
 
 ```javascript
 import {
@@ -144,10 +111,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  goodpage,
+  wela,
   carrent,
   jobit,
   tripguide,
@@ -245,55 +210,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Social Media Manager",
+    company_name: "GoodPage",
+    icon: goodpage,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and executing social media strategies to increase brand awareness and audience engagement.",
+      "Keeping page profile up-to-date.",
+      "Managing and sharing content.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer Intern",
+    company_name: "Wela School Systems",
+    icon: wela,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development of dynamic print formats, contributing to both frontend interfaces and backend logic.",
+      "Collaborating with senior developers to troubleshoot bugs, refactor code, and improve script performance.",
+      "Gaining hands-on experience with Python and JavaScript integration in a professional production environment.",
     ],
   },
 ];
@@ -305,7 +242,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "[https://randomuser.me/api/portraits/women/4.jpg](https://randomuser.me/api/portraits/women/4.jpg)",
   },
   {
     testimonial:
@@ -313,7 +250,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "[https://randomuser.me/api/portraits/men/5.jpg](https://randomuser.me/api/portraits/men/5.jpg)",
   },
   {
     testimonial:
@@ -321,7 +258,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "[https://randomuser.me/api/portraits/women/6.jpg](https://randomuser.me/api/portraits/women/6.jpg)",
   },
 ];
 
@@ -345,7 +282,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "[https://github.com/](https://github.com/)",
   },
   {
     name: "Job IT",
@@ -366,7 +303,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "[https://github.com/](https://github.com/)",
   },
   {
     name: "Trip Guide",
@@ -387,19 +324,21 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "[https://github.com/](https://github.com/)",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
 ```
+
 </details>
 
 <details>
-<summary><code>index.css</code></summary>
+<summary><b> index.css (Global Styles & Tailwind Directives)</b></summary>
 
 ```css
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("[https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap](https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap)");
 
 @tailwind base;
 @tailwind components;
@@ -603,11 +542,13 @@ export { services, technologies, experiences, testimonials, projects };
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
 ```
+
 </details>
 
 <details>
-<summary><code>Motion.js</code></summary>
+<summary><b> motion.js (Framer Motion Animation Variants)</b></summary>
 
 ```javascript
 export const textVariant = (delay) => {
@@ -698,11 +639,13 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
     },
   };
 };
+
 ```
+
 </details>
 
 <details>
-<summary><code>styles.js</code></summary>
+<summary><b> styles.js (Common Styling Constants)</b></summary>
 
 ```javascript
 const styles = {
@@ -722,12 +665,13 @@ const styles = {
 };
 
 export { styles };
+
 ```
 
 </details>
 
 <details>
-<summary><code>tailwind.config.cjs</code></summary>
+<summary><b> tailwind.config.cjs (Theme Configuration)</b></summary>
 
 ```javascript
 /** @type {import('tailwindcss').Config} */
@@ -757,20 +701,7 @@ module.exports = {
   },
   plugins: [],
 };
+
 ```
 
 </details>
-
-## <a name="links">🔗 Links</a>
-
-Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
