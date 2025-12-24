@@ -99,24 +99,30 @@ import {
   backend,
   uiux,
   web,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
   figma,
-  docker,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  tailwind,
+  adobe,
+  csharp,
+  firebase,
+  java,
+  laravel,
+  mysql,
+  php,
+  python,
+  vue,
   goodpage,
   wela,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -159,6 +165,30 @@ const services = [
 
 const technologies = [
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Vue.js",
+    icon: vue,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -171,16 +201,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -191,24 +213,32 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Adobe Creative Suite",
+    icon: adobe,
   },
 ];
 
