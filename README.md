@@ -104,17 +104,12 @@ import {
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   tailwind,
-  adobe,
-  csharp,
-  firebase,
   java,
   laravel,
   mysql,
-  php,
   python,
   vue,
   goodpage,
@@ -122,7 +117,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  github,
 } from "../assets";
 
 export const navLinks = [
@@ -177,16 +171,8 @@ const technologies = [
     icon: laravel,
   },
   {
-    name: "C#",
-    icon: csharp,
-  },
-  {
     name: "Java",
     icon: java,
-  },
-  {
-    name: "PHP",
-    icon: php,
   },
   {
     name: "HTML 5",
@@ -217,28 +203,12 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
     name: "Git",
     icon: git,
   },
   {
-    name: "GitHub",
-    icon: github,
-  },
-  {
     name: "Figma",
     icon: figma,
-  },
-  {
-    name: "Adobe Creative Suite",
-    icon: adobe,
   },
 ];
 
