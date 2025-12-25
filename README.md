@@ -114,6 +114,8 @@ import {
   vue,
   goodpage,
   wela,
+  vsu,
+  psv,
   carrent,
   jobit,
   tripguide,
@@ -239,30 +241,32 @@ const experiences = [
   },
 ];
 
+// Changed content to education and experience and I was too lazy to modify the variable names
+
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "[https://randomuser.me/api/portraits/women/4.jpg](https://randomuser.me/api/portraits/women/4.jpg)",
+      "Graduated with a focus on Software Engineering and Web Development.",
+    name: "Bachelor of Computer Science",
+    designation: "Batch",
+    company: "2021 - 2025",
+    image: vsu,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "[https://randomuser.me/api/portraits/men/5.jpg](https://randomuser.me/api/portraits/men/5.jpg)",
+      "Thesis involved creating an innovative Pageant Scoring System web application using Vue, PHP/Laravel, MySQL, and Node as the tech stack.",
+    name: "Pageant Scoring System",
+    designation: "Thesis Project",
+    company: "2025",
+    image: psv,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "[https://randomuser.me/api/portraits/women/6.jpg](https://randomuser.me/api/portraits/women/6.jpg)",
+      "Consistently maintained high academic standards throughout the 4-year degree program.",
+    name: "Dean's and Chairman's Lister",
+    designation: "Honor Student",
+    company: "2021 - 2022",
+    image: vsu,
   },
 ];
 
