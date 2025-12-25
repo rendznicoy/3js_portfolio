@@ -23,6 +23,8 @@ import vue from "./tech/vue.png";
 
 import goodpage from "./company/goodpage.png";
 import wela from "./company/wela.png";
+import vsu from "./VSU.png";
+import psv from "./PSV.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,4 +57,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  vsu,
+  psv,
 };
