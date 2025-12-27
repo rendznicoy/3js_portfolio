@@ -26,9 +26,9 @@ import wela from "./company/wela.png";
 import vsu from "./VSU.png";
 import psv from "./PSV.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pss from "./PSS.png";
+import trn from "./TRN.png";
+import dims from "./DIMS.png";
 
 export {
   logo,
@@ -54,9 +54,9 @@ export {
   vue,
   goodpage,
   wela,
-  carrent,
-  jobit,
-  tripguide,
+  pss,
+  trn,
+  dims,
   vsu,
   psv,
 };
