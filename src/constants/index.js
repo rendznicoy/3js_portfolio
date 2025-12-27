@@ -192,6 +192,10 @@ const projects = [
         name: "mysql",
         color: "blue-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
     ],
     image: pss,
     source_code_link: "https://github.com/rendznicoy/pageant-frontend",
