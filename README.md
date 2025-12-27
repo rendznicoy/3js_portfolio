@@ -116,9 +116,9 @@ import {
   wela,
   vsu,
   psv,
-  carrent,
-  jobit,
-  tripguide,
+  pss,
+  trn,
+  dims,
 } from "../assets";
 
 export const navLinks = [
@@ -272,67 +272,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pageant Scoring System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based pageant scoring system for a real-time judge and tabulator interaction. Allows judges to send scores while the system automatically calculates the final score, providing a convenient and efficient solution for scoring needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "vue",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "laravel",
         color: "pink-text-gradient",
       },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "[https://github.com/](https://github.com/)",
+    image: pss,
+    source_code_link: "https://github.com/rendznicoy/pageant-frontend",
   },
   {
-    name: "Job IT",
+    name: "Transactiq",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative, all-in-one mobile POS solution tailored for the efficiency and digital integration of Philippine MSEs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "dart",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "swift",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "[https://github.com/](https://github.com/)",
+    image: trn,
+    source_code_link: "https://github.com/josuafalguera/bayad-system",
   },
   {
-    name: "Trip Guide",
+    name: "Inventory System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Windows Form-based desktop application designed to streamline inventory, order management, and delivery logistics for a local bakery in Ormoc City, replacing inefficient manual workflows with a secure digital solution.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "c-sharp",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: ".net",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "[https://github.com/](https://github.com/)",
+    image: dims,
+    source_code_link: "https://github.com/rendznicoy/GigisCakesAndPastries",
   },
 ];
 
